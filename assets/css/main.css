@@ -7,6 +7,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+.icons {
+	color: black;
+}
+.iconDiv {
+	list-style: disc;
+	margin: 0 0 25px 0;
+	padding-left: 30px;
+}
+
+
+.iconContainer {
+	list-style-type: none ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .projectContainer {
 	display: flex;
     flex-direction: row;
@@ -2190,7 +2208,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #efefef;
+				border-top: solid 2px black;
 				padding: 0.5em 0;
 			}
 
@@ -2247,7 +2265,7 @@ input, select, textarea {
 			}
 
 			ul.labeled-icons li h3 {
-				color: #b2b2b2;
+				color: black;
 				left: 0;
 				position: absolute;
 				text-align: center;
@@ -2666,7 +2684,7 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color:black;
 		}
 
 	#footer .copyright {
