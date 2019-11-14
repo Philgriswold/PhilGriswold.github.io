@@ -1120,41 +1120,41 @@ $size-header-pad: 4em;
 
 /* Footer */
 
-	// #footer {
-	// 	.icons {
-	// 		margin: (_size(element-margin) * 0.5) 0 0 0;
+	#footer {
+		.icons {
+			margin: (_size(element-margin) * 0.5) 0 0 0;
 
-	// 		a {
-	// 			color: _palette(accent2, fg-light);
-	// 		}
-	// 	}
+			a {
+				color: _palette(accent2, fg-light);
+			}
+		}
 
-	// 	.copyright {
-	// 		color: _palette(accent2, fg-light);
-	// 		font-size: 0.8em;
-	// 		list-style: none;
-	// 		margin: (_size(element-margin) * 0.5) 0 0 0;
-	// 		padding: 0;
+		.copyright {
+			color: _palette(accent2, fg-light);
+			font-size: 0.8em;
+			list-style: none;
+			margin: (_size(element-margin) * 0.5) 0 0 0;
+			padding: 0;
 
-	// 		li {
-	// 			border-left: solid 1px _palette(accent2, border);
-	// 			display: inline-block;
-	// 			line-height: 1em;
-	// 			margin-left: 0.75em;
-	// 			padding-left: 0.75em;
+			li {
+				border-left: solid 1px _palette(accent2, border);
+				display: inline-block;
+				line-height: 1em;
+				margin-left: 0.75em;
+				padding-left: 0.75em;
 
-	// 			&:first-child {
-	// 				border-left: 0;
-	// 				margin-left: 0;
-	// 				padding-left: 0;
-	// 			}
+				&:first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
 
-	// 			a {
-	// 				color: inherit;
-	// 			}
-	// 		}
-	// 	}
-	// }
+				a {
+					color: inherit;
+				}
+			}
+		}
+	}
 
 /* Main */
 
@@ -1391,17 +1391,17 @@ $size-header-pad: 4em;
 
 		/* Footer */
 
-			// #footer {
-			// 	.copyright {
-			// 		li {
-			// 			border-left-width: 0;
-			// 			display: block;
-			// 			line-height: 2.25em;
-			// 			margin-left: 0;
-			// 			padding-left: 0;
-			// 		}
-			// 	}
-			// }
+			#footer {
+				.copyright {
+					li {
+						border-left-width: 0;
+						display: block;
+						line-height: 2.25em;
+						margin-left: 0;
+						padding-left: 0;
+					}
+				}
+			}
 
 		/* Main */
 
@@ -1465,36 +1465,36 @@ $size-header-pad: 4em;
 
 		/* Footer */
 
-			// #footer {
-			// 	background-attachment:	scroll;
-			// 	background-color:		_palette(accent2, bg);
-			// 	background-image:		url('../../images/mountain.png'),		url('../../images/mountain.png');
-			// 	background-position:	top left,						bottom center;
-			// 	background-repeat:		repeat,							no-repeat;
-			// 	background-size:		auto,							cover;
-			// 	bottom: auto;
-			// 	left: auto;
-			// 	padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
-			// 	position: relative;
-			// 	text-align: center;
-			// 	width: 100%;
+			#footer {
+				background-attachment:	scroll;
+				background-color:		_palette(accent2, bg);
+				background-image:		url('../../images/mountain.png'),		url('../../images/mountain.png');
+				background-position:	top left,						bottom center;
+				background-repeat:		repeat,							no-repeat;
+				background-size:		auto,							cover;
+				bottom: auto;
+				left: auto;
+				padding: $size-header-pad $size-header-pad ($size-header-pad * 1.5) $size-header-pad;
+				position: relative;
+				text-align: center;
+				width: 100%;
 
-			// 	.icons {
-			// 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-			// 	}
+				.icons {
+					margin: 0 0 (_size(element-margin) * 0.5) 0;
+				}
 
-			// 	.copyright {
-			// 		margin: 0 0 (_size(element-margin) * 0.5) 0;
+				.copyright {
+					margin: 0 0 (_size(element-margin) * 0.5) 0;
 
-			// 		li {
-			// 			border-left-width: 1px;
-			// 			display: inline-block;
-			// 			line-height: 1em;
-			// 			margin-left: 0.75em;
-			// 			padding-left: 0.75em;
-			// 		}
-			// 	}
-			// }
+					li {
+						border-left-width: 1px;
+						display: inline-block;
+						line-height: 1em;
+						margin-left: 0.75em;
+						padding-left: 0.75em;
+					}
+				}
+			}
 
 		/* Main */
 
@@ -1568,8 +1568,8 @@ $size-header-pad: 4em;
 
 		/* Footer */
 
-			// #footer {
-			// 	padding: ($size-header-pad * 1.5) $size-header-pad;
+			#footer {
+				padding: ($size-header-pad * 1.5) $size-header-pad;
 			}
 
 		/* Main */
@@ -1618,16 +1618,16 @@ $size-header-pad: 4em;
 
 		/* Footer */
 
-			// #footer {
-			// 	.copyright {
-			// 		li {
-			// 			border-left-width: 0;
-			// 			display: block;
-			// 			line-height: 2.25em;
-			// 			margin-left: 0;
-			// 			padding-left: 0;
-			// 		}
-			// 	}
-			// }
+			#footer {
+				.copyright {
+					li {
+						border-left-width: 0;
+						display: block;
+						line-height: 2.25em;
+						margin-left: 0;
+						padding-left: 0;
+					}
+				}
+			}
 
 	}

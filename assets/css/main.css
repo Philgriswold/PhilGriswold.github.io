@@ -34,13 +34,13 @@
 
 .devTitle {
 	color: black;
+	font-style: oblique;
 }
 
 .nameHeader {
-	font-size: 100em;
-	font-size: 20rem;
-
+	font-weight: 900;
 }
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -132,7 +132,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: black;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -156,7 +156,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: black;
 		font-weight: 400;
 	}
 
