@@ -8,6 +8,18 @@
 */
 
 
+.projectRow{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.projectContainer{
+	width:80px;
+    height: 80px;
+    padding: 50px;
+}
+
 .icons {
 	color: black;
 }
