@@ -8,17 +8,17 @@
 */
 
 
-.projectRow{
+/* .projectRow{
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 }
 
 .projectContainer{
-	width:80px;
-    height: 80px;
+	width:1080px;
+    height: 1080px;
     padding: 50px;
-}
+} */
 
 .icons {
 	color: black;
